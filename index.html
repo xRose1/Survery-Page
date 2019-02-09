@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Sbedx4</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  </head>
+  
+<!--  title/description  -->
+  <body>
+    <h1 id=title>Survey Form</h1>
+    <div id="main-container">
+    <div>
+      <p id="description">I would like to get more information on your services.</p>
+    </div>
+    <form id="survey-form" method="GET" action="https://en.wikipedia.org/wiki/Turtle"> 
+<!--    end    -->
+      
+<!--   name     -->
+      <div class="mainBox">
+        <div id="nameLabel" class="labelClass" >
+          <label for="name" id="name-label" >Name:</label>       
+        </div>
+        <div class="rightTab">
+          <input type="text" id="name" class="input" placeholder="Enter your name" required>
+        </div>
+      </div>        
+<!--    end    -->
+      
+<!--    email    -->
+      <div class="mainBox">
+        <div id="emailLabel" class="labelClass">
+          <label for="email" id="email-label">Email:</label>
+        </div>
+        <div class="rightTab">
+          <input id="email" class="input" type="email" placeholder="Enter your email" required>
+        </div>
+      </div>
+<!--    end    -->
+      
+<!--    age    -->
+<div class="mainBox">
+        <div id="age" class="labelClass">
+          <label for="age" id="number-label">Age:</label>
+        </div>
+        <div class="rightTab">
+          <input id="number" class="input" type="number" min="1" max="100" placeholder="Enter your age" required>
+        </div>
+      </div>
+<!--    end    -->
+      
+<!--   stay     -->
+      <div class="mainBox">
+        <div id="stay" class="labelClass">
+          <label for="stay">What option best describes your massage?</label>
+        </div>
+        <div id="dropdown" class="rightTab">
+          <select class="input">
+            <option value="select">Select one</option>
+            <option value="great">IT WAS GREAT </option>
+            <option value="okay">IT WAS OKAY!</option>
+            <option value="bad">IT WAS A BAD!</option>
+          </select>
+        </div>
+      </div>
+<!--   end       -->
+      
+<!--    recommend    -->
+      <div class="mainBox">
+        <div id="recommend1" class="labelClass">
+          <label id="recommend2"for="recommendation">How likely is that you would recommend Boston Massage Services?</label>
+        </div>
+          <div id="radioBtn" class="rightTab radioBtn">
+            <input type="radio" name="recommend" value="yes"> Definitely</br>
+            <input type="radio" name="recommend" value="maybe"> Maybe</br>
+        <input type="radio" name="recommend" value="no"> Never</br>
+          </div>
+      </div>
+<!--    end    -->
+  
+<!--  improvements  -->
+  <div class="mainBox">
+    <div id="checkLabel" class="labelClass">
+      <p id="para" for="improvements">Things that should be improved in the future (Check all that apply):</p>
+    </div>
+      <div id="checkbox" class="rightTab">
+        <label><input type="checkbox" name="improvements" value="parking"> Equipment</label>
+        <label><input type="checkbox" name="improvements" value="bathrooms"> Bathrooms</label>
+        <label><input type="checkbox" name="improvements" value="amenities"> Amenities</label>
+        <label><input type="checkbox" name="improvements" value="wifi"> Pressure</label>
+        <label><input type="checkbox" name="improvements" value="Accommodations"> Accommodations</label>
+        <label><input type="checkbox" name="improvements" value="housekeeping"> Daily Housekeeping</label>
+        <label><input type="checkbox" name="improvements" value="furniture"> Furniture and Linens</label>
+        <label><input type="checkbox" name="improvements" value="checkin&out"> Rolling Check-in/out</label>
+       <label><input type="checkbox" name="improvements" value="cs">Customer Service</label>
+       <label><input type="checkbox" name="improvements" value="planning"> Massage Planning & Bookings</label>
+     </div>
+</div>
+<!--  end  -->
+    
+<!--   comments   -->
+  <div class="mainBox">
+    <div id="textLabel" class="labelClass">
+      <p id="comments" for="feedback">Any Comments or Suggestions?</p>
+    </div>
+      <div id="textarea" class="rightTab">
+        <textarea rows="5" cols="40" placeholder="Enter your comments here..." required></textarea>
+     </div>
+<!--   end   -->
+    
+<!--  submit    -->
+    <div id="submitBtn">
+      <input id="submit" type="submit" value="Submit">
+    </div>
+<!--   end   -->
+      </form>
+  </div>
+  </body>
+</html>
+  
+  
+
+</body>
+
+</html>

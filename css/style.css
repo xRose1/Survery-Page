@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('https://images.pexels.com/photos/1167021/pexels-photo-1167021.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+}
+
+#title {
+  padding-top: 30px;
+}
+
+#main-container {
+  width: 750px;
+  height: 860px;
+  margin: 30px auto; 
+  background-color: #fff;
+  font-weight: 500;
+  border-radius: 5px 5px;
+  opacity: 0.9;
+}
+
+#description {
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+
+.mainBox {
+  display: flex;
+  margin: 15px auto;
+  padding: 2.2px;
+  padding-right: 30px;
+  float: right;
+}
+
+.labelClass {  
+}
+
+#nameLabel, #emailLabel, #age {
+  padding-right: 30px;
+}
+
+#stay {
+  padding-right: 15px;
+  width: 320px;
+}
+
+#dropdown {
+  padding-right: 216px;
+   
+}
+
+.rightTab {
+  padding-right: 30px;
+}
+
+#name, #email, #number, #radioBtn {
+  width: 300px;
+}
+
+#recommend2 {
+  padding-right: 20px;
+  text-align: right;
+}
+
+#radioBtn {
+  cursor: pointer;
+  height: 70px;
+  text-align: left;
+}
+
+.radioBtn {
+  padding-right: 80px;
+  margin: 0 10px 0 10px; 
+}
+
+label {
+  display: block;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+#para {
+  text-align: right;
+  width: 300px;
+  padding-right: 29px;
+  position: relative;
+  bottom: 20px;
+}
+
+#checkbox {
+  width: 300px;
+  padding-right: 32px;
+  position: relative;
+  bottom: 20px;
+}
+
+#textarea {
+  width: 200px;
+  position: relative;
+  bottom: 30px;
+  padding-right: 25px;
+} 
+
+#comments {
+  padding-right: 30px;
+  position: relative;
+  bottom: 30px;
+}
+
+#submitBtn {
+  position: relative;
+  right: 280px;
+  bottom: -80px;
+    }
+
+#submit:hover {
+  background-color: #266084;
+}
+
+#submit {
+  font-size: 1em;
+  border-radius: 3px;
+  background-color: #59ace0;
+  color: #fff;
+  height: 40px;
+  width: 96px;
+  margin: 5px;
+  border: 0px solid;
+
+}
+
+::-webkit-input-placeholder {
+  padding: 5px;
+}  
